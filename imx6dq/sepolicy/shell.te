@@ -12,3 +12,4 @@ allow shell runtime_event_log_tags_file:file { map };
 allow shell ctl_bootanim_prop:file { getattr };
 allow shell system_prop:property_service { set };
 allow shell mnt_media_rw_file:dir { getattr };
+allow shell self:icmp_socket { create read write };

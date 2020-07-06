@@ -1,0 +1,24 @@
+bqtool
+======
+
+Android utility for programming and debugging TI's bq27xxx family of gas gauges
+- Currently the tool has only the "--flash" command. But more tools may be added
+  in the future
+
+Iniitial build
+==============
+make TARGET_PRODUCT=<product> bqtool
+
+Incremental build
+=================
+cd <android-root-dir>
+source build/envsetup.sh
+mm TARGET_PRODUCT=<product>
+
+Commands supported:
+--flash :
+	bqtool --flash <bqfs file|dffs file>
+	Eg: bqtool --flash /system/bin/bq27520_v302.bqfs
+
+	For details of flashstream file format(.bqfs/.dffs) see:
+	http://www.ti.com.cn/cn/lit/an/slua541a/slua541a.pdf

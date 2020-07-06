@@ -4,3 +4,5 @@ add_lunch_combo sabresd_6dq_car-user
 add_lunch_combo sabresd_6dq_car-userdebug
 add_lunch_combo sabreauto_6q-user
 add_lunch_combo sabreauto_6q-userdebug
+add_lunch_combo sbc_mx6_cid_gen4-user
+add_lunch_combo sbc_mx6_cid_gen4-userdebug

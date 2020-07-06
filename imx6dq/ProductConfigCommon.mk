@@ -336,6 +336,7 @@ PRODUCT_COPY_FILES +=	\
     device/fsl/common/input/eGalax_Touch_Screen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/HannStar_P1003_Touchscreen.idc \
     device/fsl/common/input/eGalax_Touch_Screen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Novatek_NT11003_Touch_Screen.idc \
     device/fsl/common/input/eGalax_Touch_Screen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/eGalax_Touch_Screen.idc \
+    device/fsl/common/input/Goodix_Capacitive_TouchScreen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Goodix_Capacitive_TouchScreen.idc \
     device/fsl/imx6dq/etc/init.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.freescale.usb.rc \
     device/fsl/imx6dq/etc/ota.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ota.conf \
     device/fsl/imx6dq/init.recovery.freescale.rc:root/init.recovery.freescale.rc \
@@ -347,7 +348,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #this makes imx6 wifionly devices
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.radio.noril=yes
+    ro.radio.noril=no
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.mediacomponents.package=com.nxp.extractorpkg

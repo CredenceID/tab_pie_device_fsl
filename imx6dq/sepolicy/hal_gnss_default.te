@@ -1,0 +1,8 @@
+vndbinder_use(hal_gnss_default)
+typeattribute hal_gnss_default hal_dumpstate_server ;
+typeattribute hal_gnss_default binder_in_vendor_violators ;
+allow hal_gnss_default binder_device:chr_file { read write };
+allow hal_gnss_default sysfs:file { open write read };
+allow hal_gnss_default vendor_shell_exec:file execute_no_trans;
+allow hal_gnss_default vndbinder_device:chr_file read;
+dontaudit hal_gnss_default self:udp_socket create;

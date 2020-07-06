@@ -10,6 +10,7 @@
 /dev/dri/card1                  u:object_r:graphics_device:s0
 /dev/dri/renderD128             u:object_r:gpu_device:s0
 /dev/pxp_device                 u:object_r:pxp_device:s0
+/dev/ttymxc1 					u:object_r:hci_attach_dev:s0
 /vendor/app(/.*)?               u:object_r:same_process_hal_file:s0
 
 ###############################################

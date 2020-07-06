@@ -1,0 +1,2 @@
+vendor.rild.libpath=/vendor/lib/libquectel-ril.so
+#vendor.rild.libargs=-d /dev/ttyUSB2

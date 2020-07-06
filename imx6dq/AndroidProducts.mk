@@ -29,4 +29,5 @@
 PRODUCT_MAKEFILES := \
   $(LOCAL_DIR)/sabreauto_6q/sabreauto_6q.mk \
   $(LOCAL_DIR)/sabresd_6dq/sabresd_6dq.mk \
-  $(LOCAL_DIR)/sabresd_6dq/sabresd_6dq_car.mk
+  $(LOCAL_DIR)/sabresd_6dq/sabresd_6dq_car.mk \
+  $(LOCAL_DIR)/sbc_mx6_cid_gen4/sbc_mx6_cid_gen4.mk

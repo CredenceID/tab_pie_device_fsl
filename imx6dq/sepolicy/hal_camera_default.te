@@ -6,3 +6,5 @@ allow hal_camera_default sysfs:dir { open read };
 allow hal_camera_default sysfs:file { open read getattr };
 allow hal_camera_default mediacodec_tmpfs:file { open read write setattr map };
 allow hal_camera_default hal_graphics_mapper_hwservice:hwservice_manager find;
+allow hal_camera_default sysfs:file write;
+allow hal_camera_default sysfs_leds:dir search;
