@@ -216,6 +216,9 @@ PRODUCT_COPY_FILES +=  \
     device/fsl/imx6dq/sbc_mx6_cid_gen4/modem/ip-down:system/etc/ppp/ip-down\
     device/fsl/imx6dq/sbc_mx6_cid_gen4/modem/libreference-ril.so:vendor/lib/libquectel-ril.so
 
+PRODUCT_COPY_FILES +=  \
+    device/fsl/imx6dq/sbc_mx6_cid_gen4/fsl-proprietary/Camera/camera.imx6.so:vendor/lib/hw/camera.imx6.so
+
 # zkw gps
 #ifeq ($(USE_ZKW_GPS_HARDWARE),true)
 #PRODUCT_COPY_FILES +=  \

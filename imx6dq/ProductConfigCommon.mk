@@ -61,7 +61,6 @@ PRODUCT_PACKAGES += \
 
 # HAL
 PRODUCT_PACKAGES += \
-    camera.imx6 \
     copybit.imx6 \
     gralloc.imx6 \
     hwcomposer.imx6 \
